@@ -1,0 +1,96 @@
+body{
+    background-color: #2B2A33;
+    display: grid;
+    justify-content: center;
+}
+/*Textos*/
+.titulo{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+/* select */
+select {
+    background:#42414d;
+    color: #fff;
+    width: 300px;
+    padding: 8px 34px 8px 10px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size:16px;
+    cursor: pointer;
+}
+
+/* Cuerpo de la calculadora*/
+#calculadora{
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 13.5rem;
+    margin: 0 auto;
+}
+#pantalla{
+    background-color: aliceblue;
+    border:1px solid black;
+    width:200px;
+    height:30px;
+    text-align:right;
+    font-size:20px;
+    padding:5px;
+}
+button{
+    background-color: gold;
+    width:43px;
+    height:43px;
+    font-size:20px;
+    font-weight: bold;
+    margin:3px;
+    border: unset;
+}
+button:hover{
+    background-color: yellow;
+}
+
+
+
+/* Temas de la calculadora */
+/* Tema default */
+#calculadora.theme-default {
+    background-color: orangered;
+}
+#calculadora.theme-default button {
+    background-color: gold;
+    color: black;
+}
+
+/* Tema oscuro */
+#calculadora.theme-oscuro {
+    background-color: black;
+}
+#calculadora.theme-oscuro button {
+    background-color: grey;
+    color: white;
+}
+
+/* Tema rosa */
+#calculadora.theme-rosa {
+    background-color: pink;
+}
+#calculadora.theme-rosa button {
+    background-color: white;
+    color: black;
+}
+
+/* Tema verde */
+#calculadora.theme-verde {
+    background-color: #39FF14;
+}
+#calculadora.theme-verde button {
+    background-color: green;
+    color: black;
+}
+
+
